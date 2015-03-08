@@ -9,6 +9,7 @@ development:
   database: oneplaceaday_dev
   pool: 5
   host: localhost
+  password: "chetna"
 
 
 # Warning: The database defined as "test" will be erased and
@@ -19,15 +20,18 @@ test:
   database: oneplaceaday_test 
   pool: 5
   host: localhost
+  password: "chetna"
 
 staging:
   adapter: postgresql
   database: oneplaceaday_stage
   pool: 5
   host: localhost
+  password: "chetna"
 
 production:
   adapter: postgresql
   database: oneplaceaday_prod
   pool: 5
   host: localhost
+  password: 'chetna'

@@ -1,0 +1,2 @@
+class NewSessionsController < ApplicationController
+end
